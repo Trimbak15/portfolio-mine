@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Inter, Calistoga } from "next/font/google";
+import { twMerge } from "tailwind-merge";
 
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
 });
+
 const calistoga = Calistoga({
   subsets: ["latin"],
   variable: "--font-calistoga",
@@ -49,7 +51,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={twMerge(inter.variable, calistoga.variable, "bg-white text-gray-900 antialiased dark:bg-gray-900 dark:text-gray-100 font-sans")}>{children}</body>
     </html>
   );
 }

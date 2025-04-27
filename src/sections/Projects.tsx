@@ -4,15 +4,15 @@ import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "FIBE Instant Personal Loan",
+    year: "2023",
+    title: "Author Landing Page",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
+    link: "https://www.fibe.in/",
     image: darkSaasLandingPage,
   },
   {
@@ -42,5 +42,13 @@ const portfolioProjects = [
 ];
 
 export const ProjectsSection = () => {
-  return <div>Projects Section</div>;
+  return (
+    <div>
+      <div className="container">
+        <p>Real-world Results</p>
+        <h2>Ideas → Code → Experiences.</h2>
+        <p>Crafting UIs that don’t just work—they wow..</p>
+      </div>
+    </div>
+  );
 };
