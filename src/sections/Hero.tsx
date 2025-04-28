@@ -91,3 +91,5 @@ export const HeroSection = () => {
     </div>
   );
 };
+
+// code pushed on 26 last
