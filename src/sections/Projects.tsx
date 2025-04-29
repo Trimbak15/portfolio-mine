@@ -52,3 +52,6 @@ export const ProjectsSection = () => {
     </div>
   );
 };
+
+// going home will p do the remaining work by the 30 / by 1 may .
+// humble request don't dare to call me / ask for any silly doubt clear all trh doubt using copilot else deep seek.
