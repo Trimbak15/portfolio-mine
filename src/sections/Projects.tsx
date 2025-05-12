@@ -47,8 +47,8 @@ const portfolioProjects = [
 
 export const ProjectsSection = () => {
   return (
-    <section className="pb-16 px-8 lg:py-24">
-      <div className="container lg:max-w-5xl">
+    <section className="pb-16 px-8 lg:py-10">
+      <div className="container lg:max-w-6xl">
         <div className="flex justify-center">
           <p className="uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text text-center">
             Real-world Results
@@ -60,8 +60,8 @@ export const ProjectsSection = () => {
         <p className="text-center text-white/60 md:text-lg lg:text-xl mt-2 md:mt-10 max-w-md mx-auto">
           Crafting UIs that don't just work—they wow.
         </p>
-      </div>
-      <div className="flex flex-col mt-10 gap-20 ">
+      
+      <div className="flex flex-col mt-10 gap-20">
         {portfolioProjects.map(project => (
           <div
             key={project.title}
@@ -109,6 +109,7 @@ export const ProjectsSection = () => {
             </div>
           </div>
         ))}
+      </div>
       </div>
     </section>
   )
