@@ -2,7 +2,7 @@
   "name": "portfolio-site-2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://trimbak15.github.io/portfolio-mine",
+  "homepage": "https://github.com/Trimbak15/portfolio-mine",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
