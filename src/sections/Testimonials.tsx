@@ -11,7 +11,7 @@ const testimonials = [
   {
     name: "Pawan Malvani",
     position: "Intructor @ K.K. Wagh Institute",
-    text: "Trimbak's work on our website has been a game-changer. His attention to detail and understanding of user experience have made a significant impact on our online presence.",
+    text: "Trimbak&apos;s work on our website has been a game-changer. His attention to detail and understanding of user experience have made a significant impact on our online presence.",
     avatar: memojiAvatar1,
   },
   {
@@ -23,7 +23,7 @@ const testimonials = [
   {
     name: "Emily Zhang",
     position: "UX researcher @ Curiosity Tank",
-    text: "Trimbak's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
+    text: "Trimbak&apos;s ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
     avatar: memojiAvatar3,
   },
   {
@@ -35,7 +35,7 @@ const testimonials = [
   {
     name: "Moon Qureshi",
     position: "Developer @ Deqode",
-    text: "Trimbak's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
+    text: "Trimbak&apos;s work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
     avatar: memojiAvatar5,
   },
 ];
@@ -47,7 +47,7 @@ export const TestimonialsSection = () => {
     <SectionHeader 
       title="Testimonials" 
       eyebrow="Happy Clients" 
-      description="Here's what clients have to say about working with me. From startups to established brands, I’ve helped deliver impactful solutions with a strong focus on quality, communication, and results." 
+      description="Here&apos;s what clients have to say about working with me. From startups to established brands, I&apos;ve helped deliver impactful solutions with a strong focus on quality, communication, and results." 
     />
     <div className="mt-16 lg:mt-16 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
       <div className="flex gap-8 flex-none">
