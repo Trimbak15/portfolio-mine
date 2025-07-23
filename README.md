@@ -39,4 +39,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 project portfolio is still pending 
 will need to do the work and finish this project asap 
-
+need to add this portfolio in all social media with proper POW.
