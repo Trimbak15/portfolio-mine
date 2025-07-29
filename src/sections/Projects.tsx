@@ -30,7 +30,7 @@ const portfolioProjects = [
       {title: "Expanded customer reach by 35%"},
       {title: "Increased brand awareness by 15%"},
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
+    link: "https://trimbak15-react-redux.netlify.app/",
     image: lightSaasLandingPage,
   },
   {
@@ -42,7 +42,7 @@ const portfolioProjects = [
       {title: "Improved site speed by 50%"},
       {title: "Increased mobile traffic by 35%"},
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
+    link: "https://trimbak15-e-commerce-site.netlify.app/",
     image: aiStartupLandingPage,
   },
 ]
@@ -58,10 +58,14 @@ export const ProjectsSection = () => {
         />
       
       <div className="flex flex-col mt-10 gap-20">
-        {portfolioProjects.map(project => (
+        {portfolioProjects.map((project, projectIndex) => (
           <Card
             key={project.title}
-            className="px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20">
+            className="px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky"
+            style={{
+              top: `calc(64px + ${projectIndex*80}px)`,
+            }}
+            >
             <div className="lg:grid lg:grid-cols-2 lg:gap-16">
               <div className="lg:pb-16">
               <div className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest text-sm text-transparent bg-clip-text">
