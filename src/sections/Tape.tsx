@@ -26,7 +26,7 @@ export const TapeSection = () => {
       <div className="bg-gradient-to-r from-emerald-300 to-sky-400 overflow-x-clip  -rotate-3">
       <div className="flex [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
       <div className="flex flex-none gap-4 pr-3 py-4 animate-move-left [animation-duration:30s]">
-      >
+      
         {/* need to duplicate the words for infinte scrolling for that we need to have a dummy wordsin a array */}
         {[...new Array(2)].fill(0).map((_, index) =>(
           <Fragment key={index}>
