@@ -18,7 +18,8 @@ const calistoga = Calistoga({
 
 //title n
 export const metadata = {
-  title: "My Portfolio",
+  //name foe the site writtern here...
+  title: "Trimbak Pakhale's Portfolio",
   description: "A showcase of my work and skills",
   icons: {
     icon: "/favicon.ico",
@@ -26,10 +27,10 @@ export const metadata = {
     apple: "/favicon.ico",
   },
   openGraph: {
-    title: "My Portfolio",
+    title: "Trimbak Pakhale's Portfolio",
     description: "A showcase of my work and skills",
     url: "https://myportfolio.com",
-    siteName: "My Portfolio",
+    siteName: "Trimbak Pakhale's Portfolio",
     images: [
       {
         url: "/og-image.png",

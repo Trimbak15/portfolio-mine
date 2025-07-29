@@ -1,9 +1,31 @@
+import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
+import grainImg from "@/assets/images/grain.jpg";
+
 export const ContactSection = () => {
-  return <div>
-    <h2>Let's create something amazing together</h2>
-    <p>
-      Ready to bring your ideas to life? Whether you have a project in mind or just want to say hello, I’d love to hear from you!
-    </p>
-    <button>Contact Me</button>
-  </div>;
+  return (
+    <div className="py-16 pt-12 lg:py-24 pg:pt-20">
+      <div className="container">
+        <div className="bg-gradient-to-r from-emerald-300 to-sky-400 text-gray-900 py-8 px-10  rounded-3xl text-center md:text-left relative overflow-hidden z-0">
+            <div className="absolute inset-0 opacity-5 -z-10" style={{
+              backgroundImage: `url(${grainImg.src})`,
+            }}>
+              </div>
+              <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center">
+                <div>
+                  <h2 className="font-serif text-2xl md:text-3xl">Let's create something amazing together</h2>
+              <p className="text-sm mt-2 md:text-base ">
+                Ready to bring your ideas to life? Whether you have a project in mind or just want to say hello, I’d love to hear from you!
+              </p>
+                </div>
+                  <div>
+                    <button className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 hover:bg-gray-800 transition-colors w-max border border-gray-900 hover:border-gray-800">
+                    <span className="font-semibold">Contact Me</span>
+                    <ArrowUpRightIcon  className="size-4"/>
+                  </button>
+                  </div>
+              </div>
+        </div>
+      </div>
+    </div>
+  );
 };
