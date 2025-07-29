@@ -21,7 +21,7 @@ export const ContactSection = () => {
               </h2>
               <p className="text-sm mt-2 md:text-base">
                 Ready to bring your ideas to life? Whether you have a project in
-                mind or just want to say hello, I’d love to hear from you!
+                mind or just want to say hello, I&#39;d love to hear from you!
               </p>
             </div>
             <div>
